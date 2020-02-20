@@ -1,0 +1,15 @@
+export default  SoundResources = {
+    āp: require('../assets/sounds/aap.mp3'),
+    aps: require('../assets/sounds/aps.mp3'),
+    barp: require('../assets/sounds/barp.mp3'),
+    mačč: require('../assets/sounds/machch.mp3'),
+    jambar: require('../assets/sounds/jambar.mp3'),
+    polang: require('../assets/sounds/polang.mp3'),
+    seng: require('../assets/sounds/seng.mp3'),
+    gork: require('../assets/sounds/gork.mp3'),
+    gyābān: require('../assets/sounds/gyaabaan.mp3'),
+    kalam: require('../assets/sounds/kalam.mp3'),
+    kowr: require('../assets/sounds/kowr.mp3'),
+    haždiyā: require('../assets/sounds/hazdiya.mp3'),
+ //   gelim: require('../assets/sounds/gelim.mp3'),
+}
