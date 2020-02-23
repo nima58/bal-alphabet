@@ -27,4 +27,6 @@ export default  ImageResources = {
     estízag: require('../assets/pictures/estizag.jpg'),
     sey: require('../assets/pictures/sey.jpg'),
     loťť: require('../assets/pictures/lott.jpg'),
+    gedān: require('../assets/pictures/gedan.jpg'),
+    anār: require('../assets/pictures/anar.jpg'),
 }

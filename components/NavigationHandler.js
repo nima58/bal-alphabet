@@ -16,7 +16,7 @@ class NavigationHandler extends React.Component {
     render() {
 
         return (
-            <View style={styles.nextContainer}>
+            <View style={styles.navContainer}>
                 <View style={styles.home}>
                     <FontAwesome name='home' size={wp(11)} color='blue' onPress={this.props.toMainPage} />
                 </View>
@@ -34,7 +34,7 @@ class NavigationHandler extends React.Component {
 export default NavigationHandler;
 
 const styles = StyleSheet.create({
-    nextContainer: {
+    navContainer: {
         flex: 1,
         flexDirection: 'row',
         //  alignContent: 'space-around',

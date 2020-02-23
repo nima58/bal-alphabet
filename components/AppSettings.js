@@ -18,7 +18,7 @@ class AppSettings extends React.Component {
         this.setState({value: val.value });
      //   this.props.navigation.push('CardScreen', { 'CharEntry': charEntry, 'nextPage': this.props.navigation.state.params.nextPage });
      //   this.props.navigation.push('AlphabetsScreen', {words: AlphabetMap.words, colSize: 1});
-        this.props.navigation.navigate('AlphabetsScreen', {words: AlphabetMap.words, colSize: 1});
+        this.props.navigation.push('AlphabetsScreen', {words: AlphabetMap.words, colSize: val.value});
 //        this.props.setColSize(val);
     }
 

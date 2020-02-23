@@ -1,22 +1,5 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-
-//import SoundResources from '../constants/SoundResources';
-//import ImageResources from '../constants/ImageResources';
-//import { Octicons, Foundation, FontAwesome } from '@expo/vector-icons';
-
-//import { Tooltip, Text } from 'react-native-elements';
-
-import {
-    NoteOne,
-    NoteTwo,
-    NoteThree,
-    NoteFour,
-    NoteFive,
-    NoteSix,
-    NoteSeven
-} from '../constants/Colors'
-import SoundManager from './SoundManager';
 import ImageManager from './ImageManager';
 import CharactersManager from './CharactersManager';
 import WordsManager from './WordsManager';
@@ -28,7 +11,6 @@ class Alphabet extends React.Component {
         super(props);
         console.log("Constructor accessed!!!!");
         let charEntry = props.navigation.state.params.CharEntry;
-        //   let imgUrl = require(charEntry.img);
         this.state = {
             id: charEntry.id,
             char: charEntry.char,
@@ -60,7 +42,6 @@ class Alphabet extends React.Component {
     }
 
     render() {
-      //  let imgUrl = ImageResources[this.state.latin];
       const b = '\uFE91' ;
       console.log("arabic small b: " + b);
       console.log("arabic big b: " + b.toUpperCase());
@@ -102,7 +83,6 @@ const styles = StyleSheet.create({
         flex: 6,
         width: '90%',
         justifyContent: 'center',
-        // width: '95%',
         marginTop: 10,
         marginLeft: 22,
         
@@ -112,7 +92,6 @@ const styles = StyleSheet.create({
         flex: 3,
         width: '90%',
         marginBottom: 10,
-       // marginTop: 10
 
     },
     charsContainer:{

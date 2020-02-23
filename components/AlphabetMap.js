@@ -4,23 +4,24 @@ export default AlphabetMap = {
             "CharEntry": {
                 "id": 1,
                 "latin_id":1,
-                "char": "ا",
-                "charL": "A",
-                "baluchi": "اَپس",
-                "latin": "aps",
-                "sound": "sounds/aps.mp3",
-                "img": "navigation-demo/pictures/aps.jpg"
-            }
-        }, {
-            "CharEntry": {
-                "id": 2,
-                "latin_id":2,
                 "char": "آ",
                 "baluchi": "آپ",
                 "charL": "Ā",
                 "latin": "āp",
                 "sound": "soundss/aap.mp3",
                 "img": "navigation-demo/pictures/aap.jpg"
+            }
+        }, 
+        {
+            "CharEntry": {
+                "id": 2,
+                "latin_id":2,
+                "char": "ا",
+                "charL": "A",
+                "baluchi": "اَپس",
+                "latin": "aps",
+                "sound": "sounds/aps.mp3",
+                "img": "navigation-demo/pictures/aps.jpg"
             }
         }, {
             "CharEntry": {
@@ -36,7 +37,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 4,
-                "latin_id":27,
+                "latin_id":17,
                 "char": "پ",
                 "charL": "P",
                 "baluchi": "پلنگ",
@@ -47,7 +48,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 5,
-                "latin_id":26,
+                "latin_id":22,
                 "char": "ت",
                 "charL": "T",
                 "baluchi": "اِستار",
@@ -58,7 +59,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 5,
-                "latin_id":25,
+                "latin_id":23,
                 "char": "ٹ",
                 "charL": "Ť",
                 "baluchi": "لُٹّ",
@@ -69,7 +70,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 6,
-                "latin_id":24,
+                "latin_id":12,
                 "char": "ج",
                 "charL": "J",
                 "baluchi": "جمبر",
@@ -83,12 +84,12 @@ export default AlphabetMap = {
                 "latin_id":4,
                 "char": "چ",
                 "charL": "Č",
-                "baluchi": "مچّ",
-                "latin": "mačč",
-                "sound": "sounds/macc.mp3",
-                "img": "navigation-demo/pictures/macc.jpg"
+                "baluchi": "چمّ",
+                "latin": "čamm",
+                "sound": "sounds/camm.mp3",
+                "img": "navigation-demo/pictures/camm.jpg"
             }
-        }, {
+        },  {
             "CharEntry": {
                 "id": 8,
                 "latin_id":5,
@@ -102,7 +103,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 9,
-                "latin_id":23,
+                "latin_id":6,
                 "char": "ڈ",
                 "charL": "Ď",
                 "baluchi": "ڈگار",
@@ -113,7 +114,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 10,
-                "latin_id":22,
+                "latin_id":18,
                 "char": "ر",
                 "charL": "R",
                 "baluchi": "رۆچ",
@@ -124,7 +125,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 11,
-                "latin_id":20,
+                "latin_id":19,
                 "char": "ڑ",
                 "charL": "Ř",
                 "baluchi": "جَڑُک",
@@ -157,7 +158,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 14,
-                "latin_id":18,
+                "latin_id":20,
                 "char": "س",
                 "charL": "S",
                 "baluchi": "سنگ",
@@ -168,7 +169,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 15,
-                "latin_id":17,
+                "latin_id":21,
                 "char": "ش",
                 "charL": "Š",
                 "baluchi": "آچش",
@@ -179,7 +180,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 16,
-                "latin_id":16,
+                "latin_id":13,
                 "char": "ک",
                 "charL": "K",
                 "baluchi": "کپۆت",
@@ -190,7 +191,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 17,
-                "latin_id":15,
+                "latin_id":8,
                 "char": "گ",
                 "charL": "G",
                 "baluchi": "گُرک",
@@ -212,18 +213,29 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 19,
-                "latin_id":13,
+                "latin_id":15,
                 "char": "م",
                 "charL": "M",
-                "baluchi": "چمّ",
-                "latin": "čamm",
-                "sound": "sounds/camm.mp3",
-                "img": "navigation-demo/pictures/camm.jpg"
+                "baluchi": "مچّ",
+                "latin": "mačč",
+                "sound": "sounds/macc.mp3",
+                "img": "navigation-demo/pictures/macc.jpg"
+            }
+        }, {
+            "CharEntry": {
+                "id": 19,
+                "latin_id":16,
+                "char": "ن",
+                "charL": "N",
+                "baluchi": "انار",
+                "latin": "anār",
+                "sound": "sounds/anar.mp3",
+                "img": "navigation-demo/pictures/anar.jpg"
             }
         }, {
             "CharEntry": {
                 "id": 20,
-                "latin_id":12,
+                "latin_id":132,
                 "char": "ۆ",
                 "charL": "Ú",
                 "baluchi": "تۆپ",
@@ -234,7 +246,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 21,
-                "latin_id":11,
+                "latin_id":9,
                 "char": "ﻫ",
                 "charL": "H",
                 "baluchi": "ماهیگ",
@@ -245,7 +257,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 22,
-                "latin_id":10,
+                "latin_id":101,
                 "char": "ی",
                 "charL": "Y",
                 "baluchi": "گیابان",
@@ -256,7 +268,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 23,
-                "latin_id":9,
+                "latin_id":11,
                 "char": "ێ",
                 "charL": "Í",
                 "baluchi": "شێر",
@@ -266,10 +278,10 @@ export default AlphabetMap = {
             }
         }, {
             "CharEntry": {
-                "id": 24,
-                "latin_id":8,
-                "char": " ِ",
-                "charL": "E",
+                "id": 34,
+                "latin_id":10,
+                "char": "ی",
+                "charL": "I",
                 "baluchi": "گِلیم",
                 "latin": "gelim",
                 "sound": "sounds/gelim.mp3",
@@ -277,8 +289,19 @@ export default AlphabetMap = {
             }
         }, {
             "CharEntry": {
-                "id": 25,
+                "id": 24,
                 "latin_id":7,
+                "char": " ِ",
+                "charL": "E",
+                "baluchi": "گِدان",
+                "latin": "gedān",
+                "sound": "sounds/gedan.mp3",
+                "img": "navigation-demo/pictures/gedan.jpg"
+            }
+        }, {
+            "CharEntry": {
+                "id": 25,
+                "latin_id":87,
                 "char": "ئو",
                 "charL": "OW",
                 "baluchi": "کئور",
@@ -289,7 +312,7 @@ export default AlphabetMap = {
         }, {
             "CharEntry": {
                 "id": 26,
-                "latin_id":6,
+                "latin_id":96,
                 "char": "ئے",
                 "charL": "EY",
                 "baluchi": "سئے",

@@ -2,6 +2,7 @@ import React from 'react';
 import { Header, Image } from 'react-native-elements';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 import { Feather } from '@expo/vector-icons';
+import { View, Text, StyleSheet } from 'react-native';
 
 const Picture = require('../assets/pictures/baluchilogo.jpg');
 
@@ -16,6 +17,14 @@ class PageHeader extends React.Component {
         this.props.toSettings();
     }
     render() {
+        let textComponent= ()=>{
+            return(
+            <View style={styles.textContainer} >
+                <Text style={styles.text}>Balúči āb</Text>
+                <Text style={styles.text}>بلۆچی آب</Text>
+            </View>
+            );
+        }
         return (
             <Header
                 containerStyle={{
@@ -27,7 +36,7 @@ class PageHeader extends React.Component {
                 }}
                 leftComponent={<Image source={Picture}
                     style={{ width: wp('34%'), height: hp('13%'), resizeMode: 'contain', marginBottom: 22 }} />}
-                centerComponent={{ text: 'بلۆچی آب', style: { color: '#fff', textAlign: 'right', fontSize: wp('6%'), fontWeight: 'bold', width: wp('30%') } }}
+                centerComponent={textComponent()}
                 rightComponent={<Feather name='settings' size={32} color='blue' onPress={this.toSettings} />}
             />
         );
@@ -35,3 +44,23 @@ class PageHeader extends React.Component {
     }
 }
 export default PageHeader;
+
+const styles = StyleSheet.create({
+    textContainer: {
+       // flex: 1,
+        alignContent: 'center',
+        width: wp('24%'), 
+        height: hp('13%'),
+       // borderColor: 'white',
+       // borderWidth: 1
+
+    },
+    text: {
+        //color: '#fff', 
+        color: 'blue',
+        textAlign: 'right', 
+        fontSize: wp('6%'), 
+        fontWeight: 'bold', 
+        width: wp('30%')
+    }
+});

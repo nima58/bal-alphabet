@@ -29,7 +29,9 @@ export default  getValue = (key) => {
             ["ژ", "ژ"],
             ["ز", "ز"],
             ["ئے", "ئے"],
-            ["ٹ", "ٹـ"]
+            ["ٹ", "ٹـ"],
+            ["ی", "یـ"],
+            ["ن", "نـ"]
         ]
     );
     console.log("Key: " + JSON.stringify(key));
